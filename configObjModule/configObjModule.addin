@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>configObjModule</Name>
+    <Assembly>C:\Program Files (x86)\Plugin\OBJ Exporter\configObjModule\AddIn\configObjModule.dll</Assembly>
+    <AddInId>71FD1339-2B98-464B-8E78-41109F5A7DB4</AddInId>
+    <FullClassName>configObjModule.ThisApplication</FullClassName>
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Marcell Gyorei</VendorDescription>
+  </AddIn>
+</RevitAddIns>
