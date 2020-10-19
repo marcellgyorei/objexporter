@@ -105,8 +105,12 @@
     <None Include="configObjModule.addin" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="RevitAPI.dll" />
-    <Content Include="RevitAPIUI.dll" />
+    <Content Include="RevitAPI.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RevitAPIUI.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
 </Project>
