@@ -14,6 +14,6 @@ To test the source code with Revit 2018:
 (5) Open the solution file (C:\ProgramData\Autodesk\Revit\Macros\2018\Revit\AppHookup\configObjModule\Source\configObjModule.sln)  
 (6) Attach Revit.exe (Debug>Attach to Process>Revit.exe)  
 
-You can open the obj file using reality converter application and push it to AR (ios):
+You can open the obj file using reality converter application:
 
 ![alt text](https://github.com/marcellgyorei/ObjExporter/blob/master/usd.bmp?raw=true)
