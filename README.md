@@ -1,12 +1,19 @@
 # ObjExporter
 Exports metadata from Revit to obj by selection.
 
-Windows Installer (.msi) file can be found in the installer folder.
+Supported Revit versions: 2018.0, 2019.2  
+Prerequisites: .NET Framework 4.6.2.  
+Windows Installer (.msi) file is attached.  
 
-Prerequisites: .NET Framework 4.6.2. Supported Revit versions: 2018.0, 2019.2
+To test the source code with Revit 2018:
 
-To test the source code with Revit 2018, copy configObjModule folder into C:\ProgramData\Autodesk\Revit\Macros\2018\Revit\AppHookup and the configObjModule.addin manifest file to C:\USER_PROFILE\AppData\Roaming\Autodesk\Revit\Addins\2018.
+(1) Copy configObjModule project folder into C:\ProgramData\Autodesk\Revit\Macros\2018\Revit\AppHookup  
+(2) Copy RevitAPI.dll and RevitAPIUI.dll to C:\ProgramData\Autodesk\Revit\Macros\2018  
+(3) Copy configObjModule.addin manifest file to C:\USER_PROFILE\AppData\Roaming\Autodesk\Revit\Addins\2018  
+(4) Run Revit 2018  
+(5) Open the solution file C:\ProgramData\Autodesk\Revit\Macros\2018\Revit\AppHookup\configObjModule\Source\configObjModule.sln  
+(6) Attach Revit.exe (Debug>Attach to Process>Revit.exe)  
 
-You can open the obj file using reality converter application and push it to AR (ios):
+You can open the obj file using reality converter application:
 
 ![alt text](https://github.com/marcellgyorei/ObjExporter/blob/master/usd.bmp?raw=true)
