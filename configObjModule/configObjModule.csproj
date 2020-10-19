@@ -104,5 +104,9 @@
   <ItemGroup>
     <None Include="configObjModule.addin" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="RevitAPI.dll" />
+    <Content Include="RevitAPIUI.dll" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
 </Project>
