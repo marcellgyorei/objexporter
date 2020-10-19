@@ -5,4 +5,4 @@ Windows Installer (.msi) file can be found in the installer folder.
 
 Supported Revit versions: 2018.0, 2019.2
 
-Prerequisites: NET Framework 4.6.2
+Prerequisites: .NET Framework 4.6.2
